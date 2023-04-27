@@ -734,6 +734,7 @@ button {
   width: 24px;
   height: 24px;
   margin-left: auto;
+  margin-bottom: 24px;
 
   border-radius: 50%;
   border: none;
