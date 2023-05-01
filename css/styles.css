@@ -646,7 +646,8 @@ button {
 }
 /* Footer form */
 
-.subscribe {
+
+.subscribe-input-container{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -798,7 +799,6 @@ button {
 
 .modal-title {
   display: block;
-  margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 16px;
@@ -814,13 +814,20 @@ button {
 .modal-form-label {
   position: relative;
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   font-size: 12px;
+  color: #8E8F99;;
+}
+
+.user-form-titel{
+  display: block;
+  margin-bottom: 4px;
+   
 }
 
 .modal-form-input {
   width: 100%;
-  height: 46px;
+  height: 40px;
   padding: 0 38px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -837,10 +844,9 @@ button {
 }
 .modal-form-icon {
   position: absolute;
-  left: 4.44%;
-  right: 90.56%;
-  top: 44.83%;
-  bottom: 13.79%;
+  left: 16px;
+  top: 32px;
+  
 
   fill: var(--titel-text-color);
 
@@ -883,6 +889,7 @@ button {
   opacity: 0;
 }
 .modal-form-agreement {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -892,6 +899,9 @@ button {
 }
 
 .modal-form-agreement-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
   margin-right: 8px;
 }
 
